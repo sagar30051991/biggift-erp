@@ -45,7 +45,7 @@ class Quotation(SellingController):
 			self.quotation_to = "Lead"
 
 	def update_opportunity(self):
-		for opportunity in list(set([d.prevdoc_docname for d in self.get("items")])):
+		for opportunity in list(set([d.prevdoc_docname for d in self.get("items") if d.prevdoc_doctype=='Opportunity'])):
 			if opportunity:
 				frappe.get_doc("Opportunity", opportunity).set_status(update=True)
 

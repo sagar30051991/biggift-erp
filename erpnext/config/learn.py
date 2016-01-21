@@ -111,7 +111,17 @@ def get_data():
 					"type": "help",
 					"label": _("Point-of-Sale"),
 					"youtube_id": "4WkelWkbP_c"
-				}
+				},
+				{
+					"type": "help",
+					"label": _("Product Bundle"),
+					"youtube_id": "yk3kPrRyRRc"
+				},
+				{
+					"type": "help",
+					"label": _("Drop Ship"),
+					"youtube_id": "hUc0hu_XLdo"
+				},
 			]
 		},
 		{
